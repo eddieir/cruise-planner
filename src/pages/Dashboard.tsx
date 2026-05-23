@@ -4,7 +4,7 @@ import {
   Wallet, UtensilsCrossed, Wifi, Activity,
   MapPin, ListChecks, AlertTriangle, ShieldAlert,
   Anchor, Euro, AlertCircle, Navigation, BedDouble,
-  ShieldCheck, BookOpen
+  ShieldCheck, BookOpen, Heart
 } from 'lucide-react'
 import { Card } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -25,6 +25,7 @@ const quickLinks = [
   { to: '/internet', icon: Wifi, label: "Internet Strategy", color: 'from-orange-500 to-amber-600', desc: 'SIM & Wi-Fi plan' },
   { to: '/ports', icon: MapPin, label: "Port Plans", color: 'from-rose-500 to-pink-600', desc: 'What to do in each port' },
   { to: '/packing', icon: ListChecks, label: "Packing List", color: 'from-cyan-500 to-sky-600', desc: 'Checklist' },
+  { to: '/fitplan', icon: Heart, label: "Mozhgan's Fit Plan", color: 'from-rose-500 to-pink-600', desc: '7-day cruise fit & anti-bloat plan' },
   { to: '/avoid', icon: AlertTriangle, label: "Avoid List", color: 'from-red-500 to-orange-600', desc: 'What not to do' },
   { to: '/emergency', icon: ShieldAlert, label: "Emergency Rules", color: 'from-slate-500 to-gray-600', desc: 'If things go wrong' },
 ]

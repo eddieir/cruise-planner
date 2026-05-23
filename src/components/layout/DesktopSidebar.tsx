@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils'
 import {
   LayoutDashboard, Wallet, UtensilsCrossed, Wifi,
   Activity, MapPin, Shirt, ListChecks, ShieldAlert,
-  AlertTriangle, Anchor, Navigation, ShieldCheck, BookOpen
+  AlertTriangle, Anchor, Navigation, ShieldCheck, BookOpen, Heart
 } from 'lucide-react'
 import { DarkModeToggle } from '@/components/ui/DarkModeToggle'
 import { OfflineStatusBadge } from '@/components/ui/OfflineStatusBadge'
@@ -23,6 +23,7 @@ const navItems = [
   { to: '/navigation', icon: Navigation, label: 'Cabin Navigator' },
   { to: '/insurance', icon: ShieldCheck, label: 'Insurance' },
   { to: '/booking', icon: BookOpen, label: 'My Booking' },
+  { to: '/fitplan', icon: Heart, label: "Mozhgan's Fit Plan" },
 ]
 
 export function DesktopSidebar() {

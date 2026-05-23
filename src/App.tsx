@@ -14,6 +14,7 @@ import { EmergencyRules } from '@/pages/EmergencyRules'
 import { CabinNavigatorPage } from '@/pages/CabinNavigatorPage'
 import { InsurancePage } from '@/pages/InsurancePage'
 import { BookingPage } from '@/pages/BookingPage'
+import { FitPlanPage } from '@/pages/FitPlanPage'
 import { useStore } from '@/store/useStore'
 
 export default function App() {
@@ -65,6 +66,7 @@ export default function App() {
           <Route path="/navigation" element={<CabinNavigatorPage />} />
           <Route path="/insurance" element={<InsurancePage />} />
           <Route path="/booking" element={<BookingPage />} />
+          <Route path="/fitplan" element={<FitPlanPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
