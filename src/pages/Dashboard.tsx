@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import {
   Wallet, UtensilsCrossed, Wifi, Activity,
   MapPin, ListChecks, AlertTriangle, ShieldAlert,
-  Anchor, Euro, AlertCircle, Navigation, BedDouble
+  Anchor, Euro, AlertCircle, Navigation, BedDouble,
+  ShieldCheck, BookOpen
 } from 'lucide-react'
 import { Card } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -15,7 +16,9 @@ import { BUDGET_TARGET, BUDGET_CEILING } from '@/data/budget'
 import { formatEuro } from '@/lib/utils'
 
 const quickLinks = [
+  { to: '/booking', icon: BookOpen, label: "My Booking", color: 'from-emerald-500 to-teal-600', desc: 'Booking #66399145 · Cabin 10142' },
   { to: '/navigation', icon: Navigation, label: "Cabin Navigator", color: 'from-indigo-500 to-blue-600', desc: 'Find Cabin 10142 · GPS guide' },
+  { to: '/insurance', icon: ShieldCheck, label: "Insurance", color: 'from-sky-500 to-blue-600', desc: 'Policy 40815Q · Emergency +39 02.58.24.00.70' },
   { to: '/budget', icon: Wallet, label: "Budget Tracker", color: 'from-sky-500 to-blue-600', desc: 'Track every euro' },
   { to: '/food', icon: UtensilsCrossed, label: "Food Plan", color: 'from-emerald-500 to-teal-600', desc: 'Day-by-day meals' },
   { to: '/activities', icon: Activity, label: "Free Activities", color: 'from-violet-500 to-purple-600', desc: 'Free vs paid onboard' },

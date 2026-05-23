@@ -28,7 +28,7 @@ export const CABIN_INFO = {
   deckItalian: 'Ponte 10',
   ship: 'MSC Musica',
   musterPoint: 'F',
-  checkInOpens: '14:00',
+  checkInOpens: '13:00',
   departure: '18:00',
   disembarkation: '02/06/2026',
   type: 'BA — Cabina esterna con balcone (Balcony)',

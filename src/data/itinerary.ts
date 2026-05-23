@@ -74,7 +74,7 @@ export const itinerary: Port[] = [
     dayLabel: 'Friday',
     port: 'Ibiza',
     country: 'Spain',
-    arrival: '—',
+    arrival: '11:30',
     departure: '—',
     type: 'port',
     emoji: '🏝️',
