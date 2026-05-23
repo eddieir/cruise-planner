@@ -12,6 +12,7 @@ import { PackingList } from '@/pages/PackingList'
 import { AvoidList } from '@/pages/AvoidList'
 import { EmergencyRules } from '@/pages/EmergencyRules'
 import { CabinNavigatorPage } from '@/pages/CabinNavigatorPage'
+import { InsurancePage } from '@/pages/InsurancePage'
 import { useStore } from '@/store/useStore'
 
 export default function App() {
@@ -61,6 +62,7 @@ export default function App() {
           <Route path="/avoid" element={<AvoidList />} />
           <Route path="/emergency" element={<EmergencyRules />} />
           <Route path="/navigation" element={<CabinNavigatorPage />} />
+          <Route path="/insurance" element={<InsurancePage />} />
         </Route>
       </Routes>
     </BrowserRouter>
